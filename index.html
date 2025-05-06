@@ -4,10 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to the Training
-    <br> This is a test for the training of the git model.
-    </h1>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+            </div>
+            <!-- <div class="user-info">
+                <p>Welcome, User!</p>
+                <button type="button">Logout</button>
+            </div> -->
+            <!-- <div class="notifications">
+                <p>You have 3 new notifications</p>
+                <button type="button">View</button>
+            </div> -->
+            <div class="settings">
+                <button type="button">
+                    <img src="./images/free-settings-icon-3110-thumb.png"  alt="Settings Icon" style="width: 25px; height: 25px; background-color: #f4f4f4; border-radius: 50%;">
+                </button>
+            </div>
+            
+            <div class="theme-toggle">
+                <button type="button" onclick="toggleTheme();">
+                    <img src="./images/sun.jpg" alt="Theme Icon" style="width: 25px; height: 25px; border-radius: 50%;">
+                </button>
+            </div>
+          
+            <!-- <div class="feedback">
+                <button type="button">Feedback</button>
+            </div> -->
+            <!-- <div class="logout">
+                <button type="button">Logout</button>
+            </div> -->
+            <div class="profile-picture">
+                <img src="images/profile-icon-design-free-vector.jpg" alt="Profile Picture" style=" height: 40px; width: 40px; border-radius: 50%;">
+            </div>
+            <div class="help">
+                <button type="button" style="border-radius: 50%; background-color:blue; color: #f4f4f4;">?</button>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <div class="language-selector">
+            <select name="language" id="language">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+            </select>
+        </div>
+
+        <h1>Welcome to the Training</h1>
+        <p>This is a test for the training of the git model.</p>
+        <p>We are testing the git model.</p>
+    </main>
+    <script src="script.js"> 
+
+    </script>
 </body>
 </html>
